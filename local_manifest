@@ -2,7 +2,7 @@
 </manifest>
 
  <!-- Trees -->
- <project path="device/j4ltejx" name="blackwidowroms/android_device_samsung_j4ltejx.git" remote="github" revision=lineage-17.1
+ <project path="device/j4ltejx" name="blackwidowroms/android_device_samsung_j4ltejx.git" remote="github" revision="lineage-17.1" />
  <project path="device/j4ltejx/7570_conmon" name="asarr22/android_device_samsung_universal7570-common.git" remote="github" revision="master" />
  <project path="vendor/j4ltejx" name="blackwidowroms/vendor_samsung_universal7570-common.git" remote="github" revision="main" />
  <project path="kernel/j4tejx" name="synt4x93/android_kernel_samsung_universal7570.git remote="github" revision="master" />
