@@ -1,10 +1,10 @@
-<? xml version = "1.0" encoding = "UTF-8"?>
-</manifest>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
  <!-- Trees -->
  <project path="device/odessa" name="leole0leoleo/android_device_motorola_odessa.git" remote="github" revision="lineage-18.1" />
- <project path="device/odessa/sm6150_conmon" name="leole0leoleo/device_motorola_sm6150-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/odessa" name="leole0leoleo/vendor_motorola_odessa.git" remote="github" revision="lineage-18.1" />
- <project path="kernel/odessa" name="leole0leoleo/android_kernel_motorola_sm6150.git remote="github" revision="lineage-18.1" />
+ <project path="device/motorola/sm6150-common" name="Fraaxius/device_motorola_sm6150-common.git" remote="github" revision="r" />
+ <project path="vendor/motorola" name="erfanoabdi/proprietary_vendor_motorola.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel/motorola/sm6150" name="sm6150-motorola/android_kernel_motorola_sm6150.git" remote="github" revision="lineage-18.1" />
  
 </manifest>
