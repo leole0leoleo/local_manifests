@@ -9,20 +9,20 @@
  <!-- Trees -->
   
  <!-- Device Tree -->
- <project path="android_device_motorola_guamp.git
-          name="android_device_motorola_guamp.git
+ <project path="android_device_motorola_guamp"
+          name="android_device_motorola_guamp.git"
           remote="leole0leoleo" 
           revision="main" />
 
  <!-- Vendor Tree -->
  <project path="vendor/motorola
-          name="android_vendor_motorola_guamp" 
+          name="android_vendor_motorola_guamp.git" 
           remote="leole0leoleo"
           revision="main" />
 
  <!-- Kernel Tree -->
  <project path="kernel_motorola_sm6115" 
-          name="kernel_asus_sdm660.git" 
+          name="kernel_motorola_sm6115.git"
           remote="leole0leoleo"
           revision="maestro" />
 
