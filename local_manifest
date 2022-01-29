@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remotes -->
+ <remote name="leole0leoleo"
+         fetch="https://github.com/leole0leoleo" />
+ <remote name="LineageOS"
+         fetch="https://github.com/LineageOS" />
  <!-- Trees -->
- <project path="device/odessa" name="leole0leoleo/android_device_motorola_odessa.git" remote="github" revision="lineage-18.1" />
- <project path="device/motorola/sm6150-common" name="Fraaxius/device_motorola_sm6150-common.git" remote="github" revision="r" />
- <project path="vendor/motorola" name="erfanoabdi/proprietary_vendor_motorola.git" remote="github" revision="lineage-18.1" />
- <project path="kernel/motorola/sm6150" name="sm6150-motorola/android_kernel_motorola_sm6150.git" remote="github" revision="lineage-18.1" />
- 
+  
+ <!-- Device Tree -->
+ <project path="android_device_motorola_guamp.git
+          name="android_device_motorola_guamp.git
+          remote="leole0leoleo" 
+          revision="main" />
+
+ <!-- Vendor Tree -->
+ <project path="vendor/motorola
+          name="android_vendor_motorola_guamp" 
+          remote="leole0leoleo"
+          revision="main" />
+
+ <!-- Kernel Tree -->
+ <project path="kernel_motorola_sm6115" 
+          name="kernel_asus_sdm660.git" 
+          remote="leole0leoleo"
+          revision="maestro" />
+
 </manifest>
