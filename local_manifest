@@ -15,7 +15,7 @@
           revision="main" />
 
  <!-- Vendor Tree -->
- <project path="vendor/motorola
+ <project path="vendor/motorola"
           name="android_vendor_motorola_guamp.git" 
           remote="leole0leoleo"
           revision="main" />
